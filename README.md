@@ -53,9 +53,9 @@ def manage_device():
         device = Connection(os.ttyname(writer_pty_port), 0, 5)
         device.open()
 
-        device.set_comm_frequency("COMM1", "123.110")
+        device.set_comm_frequency("123.110", "COMM1")
         device.set_altitude_bug(99)
-        device.set_heading_bug("LEFT", 12)
+        device.set_heading_bug(12, "LEFT")
         device.set_speed_bug(100)
 
         print("READ FOLLOWING COMMANDS:")
