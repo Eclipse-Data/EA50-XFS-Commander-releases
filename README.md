@@ -55,7 +55,7 @@ def manage_device():
 
         device.set_comm_frequency("COMM1", "123.110")
         device.set_altitude_bug(99)
-        device.set_heading_bug(12, "LEFT")
+        device.set_heading_bug("LEFT", 12)
         device.set_speed_bug(100)
 
         print("READ FOLLOWING COMMANDS:")
