@@ -14,10 +14,17 @@
 
 ### Python
 
-To install the Python package, download the wheel for your architecture and Python version, and then run:
+To install the Python package, either download to your local computer the wheel for your architecture and Python version from this repo and run
 
 ```sh
 pip install <PATH_TO_WHL>
+```
+
+or install with a single command. For example, the following installs the wheel for Linux x86_64 systems and Python 3.10
+
+```
+pip install ea50-xfs-commander@https://github.com/Eclipse-Data/EA50-XFS-Commander-releases/releases/download/1.35/ea50_xfs_commander-0.0.1-cp310-cp310-manylinux_2_34_x86_64.whl
+
 ```
 
 ## Usage
